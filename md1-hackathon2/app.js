@@ -65,10 +65,21 @@
 // alert("Bài 4: Chuỗi kí tự đã xóa số: " + output);
 
 //Bài 5
-// let string = prompt("Nhập vào chuỗi cần đảo ngược: ")
+// function reverseStr(str) {
+//     let words = str.split(" ");
 //
-// function reverseString(str) {
-//     return str.split("").reverse().join("");
+//     let eachWord = words.map(word => {
+//         if (word === "") {
+//             return word;
+//         }
+//         return word.split("").reverse().join("");
+//     });
+//
+//     let reversed = eachWord.join(" ");
+//
+//     return reversed;
 // }
 //
-// alert("Bài 5: Chuỗi đảo ngược: " + reverseString(string))
+// let input = prompt("Nhập vào chuỗi muốn đảo ngược từng thành phần:");
+// let reversed = reverseStr(input);
+// alert("Bài 5: Chuỗi đảo ngược: " + reversed);
